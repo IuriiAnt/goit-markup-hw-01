@@ -1,37 +1,100 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+        <a href="./">WebStudio</a>
+        <ul>
+            <li>
+                <a href="">Студия</a>
+            </li>
+            <li>
+                <a href="">Портфолио</a>
+            </li>
+            <li>
+                <a href="">Контакты</a>
+            </li>
+        </ul>
+        </nav>  
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a href="tel:"+380961111111">+38 096 111 11 11</a>
+    </header>
+    <main>
+        <!-- HERO -->
+<section>
+<h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br>ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+<button type="button">Заказать услугу</button>
+</section>
+<!-- ABOUT -->
+<section>
+    <ul>
+        <li>Внимание к деталям <br> Идейные соображения, а также начало повседневной работы по формированию позиции.</li>
+        <li>Пунктуальность <br> Задача организации, в особенности же рамки и место обучения кадров влечет за собой. </li>
+        <li>Планирование <br> Равным образом консультация с широким активом в значительной степени обуславливает. </li>
+        <li>Современные технологии <br> Значимость этих проблем настолько очевидна, что реализация плановых заданий.</li>
+    </ul>
+</section>
+<!--WHAT WE DO-->
+<section>
 
-You can use the [editor on GitHub](https://github.com/IuriiAnt/goit-markup-hw-01/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <h2> Чем мы занимаемся</h2>
+    <ul>
+        <li>
+            <img src="./images/what-we-do/wwd-1.jpg" alt="клавиатура" width="370" height="294">
+        </li>
+        <li>
+            <img src="./images/what-we-do/wwd-2.jpg" alt="ноутбук" width="370" height="294">
+        </li>
+        <li>
+            <img src="./images/what-we-do/wwd-3.jpg" alt="планшет" width="370" height="294">
+        </li>
+    </ul>
+</section>
+<!--OUR TEAM-->
+<section>
+<h2> Наша команда </h2>
+<ul>
+    <li><img src="./images/team/igor-demyanenko-1.jpg" alt="Игорь Демьяненко" width="270" height="260">
+    </li>
+    <h3>Игорь Демьяненко</h3>
+    <p>Product Developer</p>
+    <li><img src="./images/team/olga-repina-2.jpg" alt="Ольга Репина" width="270" height="260">
+    </li>
+    <h3>Ольга Репина</h3>
+    <p>Frontend Developer</p>
+    <li><img src="./images/team/nikolay-tarasov-3.jpg" alt="Николай Тарасов" width="270" height="260">
+    </li>
+    <h3>Николай Тарасов</h3>
+    <p>Marketing</p>
+    <li><img src="./images/team/mihail-ermakov-4.jpg" alt="Михаил Ермаков" width="270" height="260">
+    </li>
+    <h3>Михаил Ермаков</h3>
+<p>IU Designer</p>
+</ul>
+</section>
+    </main>
+    <footer>
+        <h2>WebStudio</h2>
+        <address>
+        <ul>
+            <li><a href="https://goo.gl/maps/54rNQvCihTEvpf3i7" target="blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+            </li>
+            <li><<a href="mailto:info@devstudio.com">info@devstudio.com</a>
 
-### Markdown
+            </li>
+            <li><a href="tel:" +380961111111">+38 096 111 11 11</a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IuriiAnt/goit-markup-hw-01/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+            </li>
+        </ul>
+        </address>
+    </footer>
+</body>
+</html>
